@@ -1,0 +1,13 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Large draft files (submit only final PDFs via portfolio/)
+*_draft.*
+*_brouillon.*
