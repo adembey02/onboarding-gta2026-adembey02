@@ -1,11 +1,8 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=23838233)
 # GTA651 — Portfolio personnel
 
-Bienvenue dans votre dépôt de portfolio pour **GTA651 — Intelligence artificielle agentique en gestion**.
+Bienvenue dans votre dépôt de portfolio pour **GTA651 — IA appliquée à la gestion**.
 
 Ce dépôt est **privé** : seul vous et le professeur pouvez le consulter.
-
-> **Lien d'acceptation du devoir :** [https://classroom.github.com/a/UODWPQxR](https://classroom.github.com/a/UODWPQxR)
 
 ---
 
@@ -46,6 +43,20 @@ liste de contrôle de remise et la page de soumission.
 
 ---
 
+## S01 — Fiche d'opportunite agentique
+
+Votre premier livrable est une **fiche d'opportunite agentique** basee sur un des trois cas vus en classe (Klarna, GitHub Copilot Enterprise ou Morgan Stanley).
+
+Un gabarit pre-rempli avec les 6 champs est disponible dans :
+`portfolio/L1_reflexion_role_specialise.md`
+
+1. Ouvrez le fichier `.md`, remplissez les 6 champs
+2. Exportez en PDF (ou redigez directement un PDF)
+3. Deposez `L1_reflexion_role_specialise.pdf` dans `portfolio/`
+4. Mettez a jour `ai-usage.md`
+
+---
+
 ## Comment soumettre un livrable
 
 Vous n'avez **pas besoin** de connaître Git. Tout se fait dans le navigateur.
@@ -57,7 +68,7 @@ Un nom incorrect = livrable introuvable lors de la correction.
 
 **Jalons lourds (1,5 % chacun, 9 % total) :**
 
-| Jalon | Seance | Nom de fichier exact |
+| Jalon | Séance | Nom de fichier exact |
 |-------|--------|----------------------|
 | M1 | S02 | `M1_grille_selection_agents.pdf` |
 | M2 | S04 | `M2_memo_finserv.pdf` |
@@ -66,9 +77,9 @@ Un nom incorrect = livrable introuvable lors de la correction.
 | M5 | S12 | `M5_audit_ethique.pdf` |
 | M6 | S14 | `M6_feuille_route_adoption.pdf` |
 
-**Exercices legers (1 % chacun, 6 % total) :**
+**Exercices légers (1 % chacun, 6 % total) :**
 
-| Exercice | Seance | Nom de fichier exact |
+| Exercice | Séance | Nom de fichier exact |
 |----------|--------|----------------------|
 | L1 | S01 | `L1_reflexion_role_specialise.pdf` |
 | L3 | S03 | `L3_risques_cycle_vie.pdf` |
@@ -116,5 +127,5 @@ Gabarit de déclaration disponible ici : `ai-usage.md` (ce fichier est pré-remp
 
 ## Questions ?
 
-Contactez le professeur via la messagerie du cours (Teams).
+Contactez le professeur via la messagerie du cours (ZoneCours / Teams).
 Ne partagez pas votre lien de dépôt avec d'autres étudiants.
