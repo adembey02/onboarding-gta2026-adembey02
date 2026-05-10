@@ -1,7 +1,7 @@
 # M2 — Mémo exécutif de recommandation IA
 
-**Étudiant·e** : CatherineM2002  
-**Équipe** : Équipe FinServ IA — CatherineM2002  
+**Étudiant·e** : adembey02 
+**Équipe** : Équipe FinServ IA —   Equipe 4  
 **Spécialisation d'équipe** : conseil financier  
 **Cas retenu (L3)** : Aucun — nos cas personnels étaient trop distincts de ce cas  
 **Séance** : S04 — Atelier d'intégration : diagnostic et recommandation IA  
