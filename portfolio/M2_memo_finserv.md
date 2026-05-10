@@ -87,6 +87,21 @@
 
 ---
 
+## 7. Clause go/no-go
+
+<!-- À quel moment recommandez-vous d'arrêter et de pivoter ?
+     Nommez un indicateur mesurable, un seuil précis, et une date de décision.
+
+     Exemple : « Si après 3 mois le taux de précision de l'agent sur les cas standard est inférieur à 85 %,
+     on suspend le déploiement et on révise le périmètre avant de continuer. »
+
+     Indicateur : ___________________________________________
+     Seuil d'arrêt : ___________________________________________
+     Date de décision : ___________________________________________
+     Action si seuil non atteint : _________________________________ -->
+
+---
+
 ## Annexes (hors limite d'une page)
 
 - **Annexe A** : Fiche d'opportunité agentique (`portfolio/S01_fiche_opportunite_agentique.md`)
