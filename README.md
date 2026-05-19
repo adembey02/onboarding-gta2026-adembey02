@@ -17,7 +17,7 @@ README.md           ← Ce fichier
 
 ### Guides de studio
 
-Le dossier `guides/` contient les **15 guides de studio** du cours (un par séance).
+Le dossier `guides/` contient les guides de studio disponibles (publiés progressivement).
 Chaque guide inclut les objectifs d'apprentissage, les instructions du lab, la
 liste de contrôle de remise et la page de soumission.
 
@@ -25,19 +25,8 @@ liste de contrôle de remise et la page de soumission.
 |--------|---------|
 | S01 | `guides/GTA651-01_lab.pdf` |
 | S02 | `guides/GTA651-02_lab.pdf` |
-| S03 | `guides/GTA651-03_lab.pdf` |
-| S04 | `guides/GTA651-04_lab.pdf` |
-| S05 | `guides/GTA651-05_lab.pdf` |
-| S06 | `guides/GTA651-06_lab.pdf` |
-| S07 | `guides/GTA651-07_lab.pdf` |
-| S08 | `guides/GTA651-08_lab.pdf` |
-| S09 | `guides/GTA651-09_lab.pdf` |
-| S10 | `guides/GTA651-10_lab.pdf` |
-| S11 | `guides/GTA651-11_lab.pdf` |
-| S12 | `guides/GTA651-12_lab.pdf` |
-| S13 | `guides/GTA651-13_lab.pdf` |
-| S14 | `guides/GTA651-14_lab.pdf` |
-| S15 | `guides/GTA651-15_lab.pdf` |
+
+Les guides des séances suivantes seront ajoutés au fur et à mesure.
 
 > Pour télécharger un guide : cliquez sur le fichier dans `guides/`, puis sur **Download raw file** (icône ↓ en haut à droite).
 
