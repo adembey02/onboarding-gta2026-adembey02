@@ -1,6 +1,6 @@
 # Rétroaction automatisée -- S02 (Sélectionner des solutions IA : décision, opérations, productivité)
 
-_Générée le 2026-05-26T14:23:49+00:00 -- Run `20260526T140803Z-ec457158`_
+_Générée le 2026-05-28T17:42:05+00:00 -- Run `20260528T172647Z-afdf4262`_
 
 Ce document est produit par un pipeline reproductible (vérification SQL déterministe + analyse LLM du brief et de la déclaration IA). Une revue humaine précède toujours sa publication. **À ce stade expérimental, aucune note ni étiquette de niveau n'est diffusée : l'objectif est purement formatif.**
 
@@ -13,35 +13,35 @@ La vérification automatique n'a pas pu être réalisée (gate non applicable (t
 
 ## 2. Rétroaction pédagogique sur le brief
 
-> Le document soumis est un canevas d'exercice non rempli : il manque les analyses, la comparaison chiffrée et la recommandation décisionnelle pour chaque contexte. Remplissez la grille, fournissez la justification exécutive et des vérifications reproductibles pour obtenir des points.
+> Le rendu est essentiellement un gabarit non rempli : les tableaux et sections demandés sont présents mais vides. Remplissez systématiquement chaque cellule avec des éléments factuels et fournissez des recommandations distinctes et argumentées par contexte.
 
 ### Observations par dimension
 
-**Model quality**
-- Observation : Le document fourni est un canevas de consignes et de tableaux à remplir, sans schéma dimensionnel ni réponse à la question CEO.
-- Piste d'amélioration : Remplir la grille pour les deux contextes avec un schéma décisionnel clair (grain, dimensions, mesures) et justifier le pattern choisi.
+**Contexte organisationnel**
+- Observation : Le document fourni contient des emplacements vides pour les deux contextes (PME et grande entreprise) sans descriptions réelles de taille, secteur ou budgets.
+- Piste d'amélioration : Remplir pour chaque contexte une brève fiche (taille exacte, secteur précis, budget IA approximatif, équipe IT) et expliquer comment ces éléments modifient la recommandation.
 
-**Validation quality**
-- Observation : Aucune requête SQL ni vérification de résultat n'est fournie dans le canevas de remise.
-- Piste d'amélioration : Fournir au moins une requête de validation reproduisible qui montre comment la recommandation est calculée et traiter les cas limites (NULLs, doublons).
+**Justification criteres**
+- Observation : La grille affichée est vide : les cellules pour impact, faisabilité, coût et risque ne contiennent aucune justification chiffrée ou hypothèse vérifiable.
+- Piste d'amélioration : Pour chaque agent et critère, ajouter une justification factuelle ou une hypothèse vérifiable (ex : % gain attendu, estimation TCO, compétence requise) pour remplir toutes les cellules.
 
-**Executive justification**
-- Observation : Le document contient des instructions et une checklist, mais n'offre aucune recommandation décisionnelle ni synthèse pour le CEO.
-- Piste d'amélioration : Rédiger un bref exécutif (150–300 mots) par contexte résumant la recommandation, l'impact business et l'action attendue du board.
+**Role specialise identifie**
+- Observation : Les lignes 'Rôle spécialisé orchestré' sont présentes mais non renseignées pour les trois agents dans les deux contextes.
+- Piste d'amélioration : Nommer précisément le rôle métier que chaque agent remplace/augmente (ex. « agent de décision — priorisation des opportunités commerciales ») en langage métier et donner un exemple concret.
 
-**Process trace**
-- Observation : La remise est un template; il n'y a aucune trace de commits ni de note d'utilisation IA dans le texte fourni.
-- Piste d'amélioration : Ajouter un journal de commits avec ≥3 commits incrémentaux et une note IA précisant outil + usage + validation humaine.
+**Recommandation argumentee**
+- Observation : Les sections 'Recommandation pour la PME' et 'Recommandation pour la grande entreprise' sont vides et aucune conclusion défendable n'est fournie.
+- Piste d'amélioration : Formuler une recommandation distincte par contexte, lier la décision aux scores de la grille et exposer pourquoi les autres options ont été écartées (compromis valeur/risque).
 
-**Reproducibility**
-- Observation : Aucun artefact exécutable ou instructions reproductibles n'accompagnent le canevas (README/duckdb/checks absents).
-- Piste d'amélioration : Inclure un README et un script de vérification (ex. DuckDB) permettant à un collègue de reproduire les résultats en <5 minutes.
+**Ai disclosure**
+- Observation : La checklist indique de mettre à jour ai-usage.md, mais le dépôt soumis ne contient pas le fichier rempli ni d'indication d'usage d'IA.
+- Piste d'amélioration : Ajouter un fichier ai-usage.md à la racine précisant les outils (ou 'Aucun'), l'étape d'utilisation, la validation humaine et les limites observées.
 
-_Quelques points appellent une attention particulière lors de la prochaine itération : brief_incomplet._
+_Quelques points appellent une attention particulière lors de la prochaine itération : brief_incomplete._
 
 ## 3. Déclaration d'utilisation de l'IA
 
-> La déclaration fournie est le gabarit vierge et n'a pas été remplie — elle ne renseigne pas les outils, ni les étapes, ni la validation humaine, ni les limites. Remplissez chaque section avec des informations concrètes (nom et version de l'outil, étape précise, comment vous avez vérifié la sortie, erreurs observées) et signez.
+> Le fichier soumis est le gabarit non rempli : aucune section n'a été renseignée. Veuillez compléter chaque section avec des informations précises (nom et version de l'outil, étape d'utilisation, validation humaine et limites observées).
 
 **Sujets à ajouter ou expliciter pour la prochaine itération :**
 
@@ -62,11 +62,11 @@ _Quelques points appellent une attention particulière lors de la prochaine ité
 
 ## 5. Traçabilité
 
-- **Run ID :** `20260526T140803Z-ec457158`
+- **Run ID :** `20260528T172647Z-afdf4262`
 - **Devoir :** `S02`
 - **Étudiant·e :** `adembey02`
-- **Commit analysé :** `af294fd`
-- **Audit (côté instructeur) :** `tools/instructor/feedback_pipeline/audit/20260526T140803Z-ec457158/adembey02/`
+- **Commit analysé :** `b8517c4`
+- **Audit (côté instructeur) :** `tools/instructor/feedback_pipeline/audit/20260528T172647Z-afdf4262/adembey02/`
 - **Prompts (SHA-256) :**
   - `rubric_grader_system` : `505f32d1d8319d66...`
   - `ai_usage_grader_system` : `81cb7fdf89bda55a...`
