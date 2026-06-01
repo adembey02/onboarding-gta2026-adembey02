@@ -22,9 +22,9 @@
 ## En-tête du mémo
 
 **À :** Directeur général, FinServ Québec  
-**De :** CatherineM2002  
+**De :** adembey02 
 **Objet :** Recommandation de premier déploiement d'agent IA  
-**Date :** 2026-06-08  
+**Date :** 2026-06-03 
 **Confidentialité** : Usage interne uniquement
 
 ---
