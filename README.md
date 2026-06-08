@@ -1,10 +1,8 @@
 # GTA651 — Portfolio personnel
 
-Bienvenue dans votre dépôt de portfolio pour **GTA651 — Intelligence artificielle agentique en gestion**.
+Bienvenue dans votre dépôt de portfolio pour **GTA651 — IA appliquée à la gestion**.
 
 Ce dépôt est **privé** : seul vous et le professeur pouvez le consulter.
-
-> **Lien d'acceptation du devoir :** [https://classroom.github.com/a/UODWPQxR](https://classroom.github.com/a/UODWPQxR)
 
 ---
 
@@ -19,7 +17,7 @@ README.md           ← Ce fichier
 
 ### Guides de studio
 
-Le dossier `guides/` contient les **15 guides de studio** du cours (un par séance).
+Le dossier `guides/` contient les guides de studio disponibles (publiés progressivement).
 Chaque guide inclut les objectifs d'apprentissage, les instructions du lab, la
 liste de contrôle de remise et la page de soumission.
 
@@ -27,21 +25,24 @@ liste de contrôle de remise et la page de soumission.
 |--------|---------|
 | S01 | `guides/GTA651-01_lab.pdf` |
 | S02 | `guides/GTA651-02_lab.pdf` |
-| S03 | `guides/GTA651-03_lab.pdf` |
-| S04 | `guides/GTA651-04_lab.pdf` |
-| S05 | `guides/GTA651-05_lab.pdf` |
-| S06 | `guides/GTA651-06_lab.pdf` |
-| S07 | `guides/GTA651-07_lab.pdf` |
-| S08 | `guides/GTA651-08_lab.pdf` |
-| S09 | `guides/GTA651-09_lab.pdf` |
-| S10 | `guides/GTA651-10_lab.pdf` |
-| S11 | `guides/GTA651-11_lab.pdf` |
-| S12 | `guides/GTA651-12_lab.pdf` |
-| S13 | `guides/GTA651-13_lab.pdf` |
-| S14 | `guides/GTA651-14_lab.pdf` |
-| S15 | `guides/GTA651-15_lab.pdf` |
+
+Les guides des séances suivantes seront ajoutés au fur et à mesure.
 
 > Pour télécharger un guide : cliquez sur le fichier dans `guides/`, puis sur **Download raw file** (icône ↓ en haut à droite).
+
+---
+
+## S01 — Fiche d'opportunite agentique
+
+Votre premier livrable est une **fiche d'opportunite agentique** basee sur un des trois cas vus en classe (Klarna, GitHub Copilot Enterprise ou Morgan Stanley).
+
+Un gabarit pre-rempli avec les 6 champs est disponible dans :
+`portfolio/L1_reflexion_role_specialise.md`
+
+1. Ouvrez le fichier `.md`, remplissez les 6 champs
+2. Exportez en PDF (ou redigez directement un PDF)
+3. Deposez `L1_reflexion_role_specialise.pdf` dans `portfolio/`
+4. Mettez a jour `ai-usage.md`
 
 ---
 
@@ -56,7 +57,7 @@ Un nom incorrect = livrable introuvable lors de la correction.
 
 **Jalons lourds (1,5 % chacun, 9 % total) :**
 
-| Jalon | Seance | Nom de fichier exact |
+| Jalon | Séance | Nom de fichier exact |
 |-------|--------|----------------------|
 | M1 | S02 | `M1_grille_selection_agents.pdf` |
 | M2 | S04 | `M2_memo_finserv.pdf` |
@@ -65,9 +66,9 @@ Un nom incorrect = livrable introuvable lors de la correction.
 | M5 | S12 | `M5_audit_ethique.pdf` |
 | M6 | S14 | `M6_feuille_route_adoption.pdf` |
 
-**Exercices legers (1 % chacun, 6 % total) :**
+**Exercices légers (1 % chacun, 6 % total) :**
 
-| Exercice | Seance | Nom de fichier exact |
+| Exercice | Séance | Nom de fichier exact |
 |----------|--------|----------------------|
 | L1 | S01 | `L1_reflexion_role_specialise.pdf` |
 | L3 | S03 | `L3_risques_cycle_vie.pdf` |
@@ -115,5 +116,5 @@ Gabarit de déclaration disponible ici : `ai-usage.md` (ce fichier est pré-remp
 
 ## Questions ?
 
-Contactez le professeur via la messagerie du cours (Teams).
+Contactez le professeur via la messagerie du cours (ZoneCours / Teams).
 Ne partagez pas votre lien de dépôt avec d'autres étudiants.
