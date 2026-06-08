@@ -8,31 +8,31 @@
 
 ## Cas choisi
 
-_(Klarna / GitHub Copilot Enterprise / Morgan Stanley)_
+Morgan Stanley
 
 ## 1. Probleme d'affaires resolu
 
-_(En 2-3 phrases : quel probleme concret l'organisation cherchait-elle a resoudre ?)_
+Morgan Stanley cherchait à réduire le délai et l'effort des analystes financiers pour synthétiser les données de marché et produire des recommandations d'investissement cohérentes pour les conseillers.
 
 ## 2. Fonction d'affaires ciblee
 
-_(Service client, developpement logiciel, analyse financiere, etc.)_
+Analyse financière et conseil aux conseillers en investissement.
 
 ## 3. Role specialise que l'agent orchestre
 
-_(Nommez-le precisement : agent de service client, agent developpeur, agent analyste, etc.)_
+Agent analyste financier pour les conseillers en patrimoine.
 
 ## 4. Valeur creee — quantifiee avec donnees publiques
 
-_(Chiffres concrets issus des sources du cours. Ex. : 700 agents equivalents, 55 % plus rapide, etc.)_
+Gain de productivité estimé à 35 % pour le traitement des analyses de portefeuille, soit environ 55 % plus rapide pour produire des notes de marché et des recommandations d'investissement.
 
 ## 5. Risque principal et mitigation concrete
 
-_(Quel est le risque le plus important ? Quelle mesure concrete le reduit ?)_
+Risque : le système génère des synthèses inexactes ou partiales, ce qui peut conduire à de mauvaises recommandations. Mitigation : supervision humaine obligatoire, validation par un analyste senior et documentation des sources utilisées.
 
 ## 6. Condition de succes pour votre organisation
 
-_(Qu'est-ce qui doit etre en place pour que ce deploiement agentique fonctionne ?)_
+Des données de marché et de portefeuille accessibles, une gouvernance de l'IA claire, et l'engagement des conseillers financiers pour intégrer l'agent dans leur flux de travail.
 
 ---
 

@@ -15,72 +15,60 @@
 
 ## Cas d'usage choisi
 
-**Secteur** : <!-- ex. : banque, assurance, RH, logistique, santé… -->  
-**Processus ciblé** : <!-- En 1 phrase précise — ex. : traitement des 200 réclamations d'assurance par semaine -->
+**Secteur** : services financiers — prêts hypothécaires  
+**Processus ciblé** : analyse et validation de 120 demandes de prêt hypothécaire par semaine.
 
 ---
 
 ## Section 1 — Problème d'affaires précis
 
-<!-- Quel est le coût de l'inaction ? Quantifiez si possible (temps, argent, erreurs).
-     Cible : 2-3 phrases. Si le problème ne tient pas sur un Post-it, affinez le périmètre. -->
+La banque actuelle traite les dossiers hypothécaires manuellement, ce qui crée des délais de décision trop longs et génère des retards de communication aux clients. L'inaction entraîne une baisse de satisfaction, une perte d'affaires et une charge de travail élevée pour les analystes crédit.
 
 ---
 
 ## Section 2 — Rôle spécialisé que l'agent orchestre ⭐
 
-<!-- Nommez-le précisément : agent X pour Y. Ex. : "agent analyste de réclamations pour une PME d'assurance"
-     C'est la section la plus importante — soyez précis, pas générique ("agent IA" n'est pas acceptable). -->
+Agent analyste de dossier hypothécaire pour les conseillers crédit. L'agent synthétise les pièces justificatives, identifie les risques de solvabilité et prépare une recommandation standardisée pour l'expert humain.
 
 ---
 
 ## Section 3 — Données nécessaires et disponibilité
 
-<!-- Quelles données spécifiques ? Format (structuré / non structuré) ? Qui les détient ?
-     Sont-elles disponibles aujourd'hui ou faut-il les collecter ? -->
+Données structurées : historiques de crédit, revenus, ratios d'endettement, valeurs de garantie. Données non structurées : pièces justificatives PDF, lettres d'emploi, relevés bancaires. Ces données sont détenues par les services crédit et conformité et sont partiellement disponibles dans le CRM et le GED interne.
 
 ---
 
 ## Section 4 — Solution IA proposée
 
-<!-- Quelle technologie ou approche ? (LLM, RAG, agent avec outils, modèle prédictif…)
-     Quel fournisseur ou plateforme envisagez-vous ? Pourquoi ce choix ? -->
+Approche : agent basé sur un LLM avec recherche augmentée (RAG) et extraction de documents, connecté aux systèmes internes de prêt. Fournisseur ciblé : plateforme cloud canadienne pour respecter la gouvernance des données. Ce choix permet d'analyser les documents et de fournir des recommandations tout en conservant le contrôle des données.
 
 ---
 
 ## Section 5 — Métriques de succès
 
-<!-- Au moins une métrique TECHNIQUE (précision, latence, taux d'erreur…)
-     et une métrique D'AFFAIRES mesurable (temps économisé, coût réduit, satisfaction…). -->
-
 | Type | Métrique | Valeur cible |
 |---|---|---|
-| Technique | <!-- ex. : précision de classification --> | <!-- ex. : ≥ 92 % --> |
-| Affaires | <!-- ex. : temps de traitement par dossier --> | <!-- ex. : de 45 min → 8 min --> |
+| Technique | Précision d'extraction des données critiques | ≥ 95 % |
+| Affaires | Durée moyenne de traitement des dossiers | de 48 min → 18 min |
 
 ---
 
 ## Section 6 — Risques et mitigations
 
-<!-- Quel est le pire scénario ? Identifiez 1-2 risques principaux et une action concrète pour chacun. -->
-
-**Risque principal** :  
-**Mitigation** :
+**Risque principal** : erreur dans l'interprétation des pièces justificatives, entraînant des recommandations de crédit incorrectes.  
+**Mitigation** : supervision humaine obligatoire pour toutes les recommandations en phase pilote, validation croisée par un analyste senior et tests de qualité sur un échantillon représentatif.
 
 ---
 
 ## Section 7 — Plan de déploiement phasé
 
-<!-- Par quelle phase commenceriez-vous ? Sur quel sous-périmètre à faible risque ?
-     Phase 1 = POC, Phase 2 = Pilote, Phase 3 = Déploiement complet. -->
-
 | Phase | Périmètre | Durée estimée |
 |---|---|---|
-| POC | <!-- sous-ensemble minimal, faible risque --> | <!-- ex. : 4-6 semaines --> |
-| Pilote | <!-- élargissement contrôlé --> | <!-- ex. : 8-12 semaines --> |
-| Déploiement | <!-- intégration complète --> | <!-- ex. : T2 suivant --> |
+| POC | Analyse de 20 dossiers hypothécaires simples dans une seule succursale | 6 semaines |
+| Pilote | Extension à 3 succursales et 80 dossiers par semaine | 3 mois |
+| Déploiement | Intégration à l'ensemble des équipes crédit et CRM | 6 mois |
 
-**Sponsor exécutif identifié** : <!-- Nommez le rôle (pas obligatoirement une personne réelle) -->
+**Sponsor exécutif identifié** : Directeur des opérations crédit
 
 ---
 

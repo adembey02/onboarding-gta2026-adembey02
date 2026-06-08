@@ -10,8 +10,8 @@
 
 ## 1. Outil utilisé
 
-Outil : __
-Version / date d'accès : __
+Outil : ChatGPT
+Version / date d'accès : 2026-05-24
 
 *(Si plusieurs outils, dupliquez cette section.)*
 
@@ -19,9 +19,7 @@ Version / date d'accès : __
 
 ## 2. Ce qu'il m'a aidé à faire
 
-*(Tâche précise — ex. : « structurer la section ROI », pas : « écrire le travail ».)*
-
-__
+Structurer et rédiger des réponses complètes pour les gabarits `portfolio/L1_reflexion_role_specialise.md`
 
 ---
 
@@ -29,8 +27,8 @@ __
 
 *(Pour chaque affirmation ou chiffre fourni par l'IA → source primaire consultée.)*
 
-- __
-- __
+- Aucune source externe n'a été consultée ; le contenu est basé sur la connaissance des exercices et du contexte de FinServ Québec.
+- Les chiffres sont des estimations pédagogiques et doivent être validés avant soumission finale.
 
 ---
 
@@ -38,8 +36,8 @@ __
 
 *(Ce que l'IA a proposé mais que vous avez changé, corrigé ou écarté — et pourquoi.)*
 
-- __
-- __
+- J'ai adapté les formulations au contexte québécois et financier.
+- J'ai renforcé la gouvernance AMF et la conformité Loi 25 dans les recommandations.
 
 ---
 
@@ -48,5 +46,5 @@ __
 Je déclare que le contenu final reflète mon jugement personnel. Je suis responsable
 de l'exactitude, de la pertinence et du raisonnement — outil IA utilisé ou non.
 
-Nom : __
-Date : __
+Nom : AdemB
+Date : 2026-05-24
