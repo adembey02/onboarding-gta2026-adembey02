@@ -1,146 +1,79 @@
-# M2 — Mémo exécutif de recommandation IA
+# Divulgation d'usage de l'IA — ai-usage.md
 
-**Étudiant·e** : adembey02 
-**Équipe** : Équipe FinServ IA —   Equipe 4  
-**Spécialisation d'équipe** : conseil financier  
-**Cas retenu (L3)** : Aucun — nos cas personnels étaient trop distincts de ce cas  
-**Séance** : S04 — Atelier d'intégration : diagnostic et recommandation IA  
-**Date limite** : remis pendant la séance S04, avant la présentation au DG
-
----
-
-> **Jalon M2 (1,5 % du cours — pass/fail)**  
-> **Étape 1 (L3, individuel) :** Chaque membre de l'équipe a identifié et documenté un cas d'usage IA individuellement (fiche d'opportunité + canevas + risques).  
-> **Étape 2 (début S04, en équipe) :** L'équipe compare les 3–4 cas apportés, délibère et choisit le cas le plus solide à développer. Le cas retenu et son auteur·e sont déclarés dans l'en-tête ci-dessus.  
-> **Étape 3 (S04, en équipe) :** L'équipe rédige ce mémo d'une page maximum au DG de FinServ Québec à partir du cas retenu, en intégrant les 3 outils S01–S03 :  
-> la fiche d'opportunité agentique, la grille de sélection et le canevas de cas d'usage.  
-> Joignez ces outils en annexe (ne comptent pas dans la limite d'une page).  
-> **Livraison :** chaque membre pousse ce fichier (PDF) dans son propre dépôt sous `portfolio/M2_memo_finserv.pdf`.
+> Remplissez ce fichier pour chaque milestone avant de soumettre.
+> Si aucun outil IA n'a été utilisé, écrivez « Aucun » dans chaque section et signez.
+> **Obligatoire même en cas d'absence d'usage.**
+>
+> Pour mettre à jour : cliquez sur ce fichier dans GitHub, puis sur l'icône crayon ✏️.
 
 ---
 
-## En-tête du mémo
+## 1. Outil utilisé
 
-**À :** Directeur général, FinServ Québec  
-**De :** adembey02 
-**Objet :** Recommandation de premier déploiement d'agent IA  
-**Date :** 2026-06-03 
-**Confidentialité** : Usage interne uniquement
+Outil : Claude (Anthropic)
+Version / date d'accès : Claude 3.5 / juin 2026
 
----
-
-## 1. Diagnostic — Rôle spécialisé recommandé
-
-Nous recommandons de déployer un agent IA analyste du marché financier et du portefeuille client pour les 45 conseillers financiers de FinServ Québec. Cet assistant intelligent aidera les conseillers à offrir un service plus rapide, personnalisé et proactif sans remplacer la relation humaine avec les clients.
-
-L’agent doit :
-- résumer automatiquement les dossiers clients;
-- analyser les portefeuilles et mouvements récents;
-- suggérer des opportunités de suivi;
-- préparer des notes de rencontre;
-- générer des rappels et alertes;
-- recommander des actions au conseiller;
-- accélérer la préparation des rendez-vous.
-
-L’objectif est d’augmenter la capacité et l’efficacité des conseillers pour qu’ils maintiennent une relation personnalisée malgré la pression concurrentielle. Ce choix est cohérent avec la culture de FinServ Québec, qui valorise la relation humaine avant la transaction et dont les conseillers craignent déjà “la machine”.
+Outil : ChatGPT (OpenAI)
+Version / date d'accès : GPT-4o / juin 2026
 
 ---
 
-## 2. Solution recommandée
+## 2. Ce qu'il m'a aidé à faire
 
-Nous recommandons une solution SaaS avec connecteur Salesforce natif, limitée aux 45 conseillers financiers pour réduire les frais de licence, améliorer la traçabilité et limiter la divulgation de données confidentielles.
+**Claude :**
+- **Section 1 (Diagnostic)** : Reformuler le diagnostic en contexte d'urgence + orchestration (au lieu de solution unique)
+- **Sections 2-7** : Enrichir chaque section avec profondeur logique : solution modulaire vs SaaS, budget détaillé (150 K+ ops), ROI 128%, conformité granulaire par agent, plan 4 phases avec KPI go/no-go, métriques par responsable
+- **Section 8 (Orchestration)** : Structurer les 5 agents en chaîne, 3 points de contrôle humain, faiblesses équipe corrigées, angle créatif Agent 6
 
-Brex est privilégié car c’est une solution déjà conçue pour l’analyse financière, plus abordable et plus rapide à implanter que du sur mesure. Brex offre :
-- accès restreints et rôles pour limiter l’usage aux conseillers autorisés;
-- traces d’activité auditables pour la conformité;
-- rapports structurés pour vérifier la cohérence et le devoir de diligence;
-- intégration comptable pour documenter frais, flux et produits;
-- contrôles d’accès et rôles adaptés à la Loi 25;
-- engagements contractuels sur la sécurité et la confidentialité des données.
-
-Si nécessaire, FinServ peut aussi considérer Microsoft Copilot for Financial Services comme solution alternative, mais l’option la plus réaliste reste Brex dans le contexte d’une équipe TI de seulement 8 personnes déjà à pleine capacité.
-
-Au final, nous privilégions davantage Brex puisqu’il s’agit d’une solution plus abordable, plus rapide à implanter et mieux adaptée aux capacités actuelles de l’équipe TI de FinServ Québec, tout en permettant aux conseillers financiers de conserver un rôle central et humain dans la relation avec les clients.
+**ChatGPT :**
+- Clarifier les 2-3 faiblesses majeures de la solution Brex en équipe et proposer des corrections dans chaque section
+- Générer des exemples concrets d'arbitrage et correction à chaque étape du workflow
+- Vérifier la cohérence du workflow avec la conformité AMF et Loi 25 (anonymisation, audit trail, supervision humaine)
+- Raffiner les formulations de ROI (128 %) et les arguments d'avantages orchestration vs. SaaS (coût, flexibilité, confiance)
 
 ---
 
-## 3. Budget et ROI estimé
+## 3. Sources et chiffres que j'ai vérifiés moi-même
 
-### Option 1 — Brex
-- Coût de déploiement : 80 000 $ (configuration Salesforce, intégration CRM, sécurité, formation et pilote)
-- Coût opérationnel annuel : 20 000 $ à 30 000 $
-
-### Option 2 — Microsoft Copilot for Financial Services
-- Coût de déploiement : 120 000 $ (configuration Salesforce/Microsoft, intégration CRM, sécurité, formation et pilote)
-- Coût opérationnel annuel : 45 000 $ à 60 000 $
-
-Ces deux solutions respectent l’enveloppe de 300 K$ prévue pour le premier projet IA.
-
-ROI estimé à 12 mois :
-- Hypothèse 1 : l’agent IA réduit la perte de clients de 50 %.
-- Hypothèse 2 : chaque client conservé représente environ 4 000 $ de revenus annuels.
-
-FinServ Québec perd actuellement entre 3 et 4 clients par semaine depuis avril 2026, soit environ 182 clients par année. En réduisant ces pertes de 50 %, l’entreprise pourrait conserver environ 80 clients sur 12 mois. À 4 000 $ de revenus annuels par client, cela représente environ 320 000 $ de revenus conservés.
-
-Le projet pourrait donc permettre de conserver environ 320 000 $ de revenus annuels, tout en modernisant l’expérience des conseillers et en améliorant la rapidité des suivis clients.
+- **Contexte d'urgence (section 1)** : Les chiffres de perte de clients (3-4/semaine depuis avril 2026 = ~182/an) viennent directement du diagnostic présenté en S03 — j'ai croisé avec le DG et les managers.
+- **Conformité AMF & Loi 25** : J'ai consulté le guide AMF 2025 sur l'usage de l'IA en gestion de portefeuille ; confirmé que l'anonymisation des données sensibles est obligatoire avant traitement par LLM (sections 4-5).
+- **ROI & Budget (section 3)** : Les hypothèses de revenus par client conservé (4 000 $/an) et gain de productivité (3x) viennent de données internes FinServ (historique acquisition/retention). J'ai validé auprès du contrôleur.
+- **Capacité TI (section 2-5)** : Confirmé que l'équipe TI compte 8 personnes à pleine capacité — explique pourquoi orchestration interne est plus viable que SaaS complexe.
+- **Processus conseiller** : Les 5 étapes du workflow (sécurité → agrégation → analyse → recommandations → synthèse) reflètent mon expérience directe de 3 mois d'accompagnement des conseillers sur le terrain.
 
 ---
 
-## 4. Contraintes réglementaires adressées
+## 4. Ce que j'ai modifié ou rejeté
 
-La recommandation respecte les contraintes AMF et Loi 25 par les décisions de design suivantes :
-- accès restreint aux 45 conseillers autorisés;
-- authentification forte et revue des droits;
-- supervision humaine obligatoire pour toute recommandation client;
-- journalisation complète des actions et des accès;
-- traitement des données sensibles dans des flux séparés;
-- pseudonymisation/anonymisation des données envoyées au LLM.
+**Rejeté :**
+- La première proposition était SaaS Brex monolithique (comme en équipe) — j'ai pivoté vers orchestration interne pour garder le contrôle et la confiance conseiller
+- L'IA proposait 8 agents parallèles — simplifié à 5 agents séquentiels pour respecter la capacité TI (8 personnes) et la maintenabilité
+- L'IA proposait des validations humaines "optionnelles" — j'ai rendu les 3 points de contrôle *obligatoires* pour adresser directement la crainte des conseillers
 
-Ne pas transmettre au LLM : nom du client, numéro de compte, IBAN, numéro de carte, adresse, téléphone, email, revenus précis, soldes exacts, historique de transactions détaillé et toute information nominative.
+**Modifié :**
+- Les sections 1–7 : l'IA avait une structure classique (diagnostic générique, ROI théorique). J'ai enrichi chaque section avec contexte urgence, arguments compétitifs, go/no-go décisionnels concrets
+- Les exemples d'arbitrage initiaux étaient trop théoriques — j'ai ajouté des dialogues réalistes et des nuances client (ex : « obligation dégradée » → « obligation à surveiller » pour le contexte psychologique)
+- Plan de déploiement : passé de 3 phases génériques à 4 phases avec jalons concrets et critères de décision mesurables (taux validation ≥ 90 %, temps <10 min, etc.)
+- Métriques (section 6) : ajouté responsabilités par rôle (IT, Conseiller, Compliance, Manager) pour clarté d'exécution
 
-Le LLM doit recevoir des données anonymisées ou agrégées : synthèses de portefeuille, scores de risque, catégories d’actifs, tendances de marché et conclusions d’analyse sans éléments nominaux.
-
-En pratique, on prépare des fiches clients non-personnifiées pour le LLM, on conserve les données sensibles séparément et le suivi humain vérifie que rien d’identifiable n’est injecté dans le modèle.
-
----
-
-## 5. Plan de déploiement en 3 phases
-
-| Phase | Contenu | Durée | Jalon de succès |
-|-------|---------|-------|-----------------|
-| Phase 1 — POC | Valider la faisabilité sur un échantillon de données financières et un petit groupe de conseillers | 2-4 semaines | Fiabilité des réponses ≥ 80 % lors des tests |
-| Phase 2 — Pilote | Tests réels avec une dizaine de conseillers financiers pour vérifier la valeur ajoutée | 3 mois | Gain de temps de 3x sur la préparation de rendez-vous |
-| Phase 3 — Déploiement | Déploiement à grande échelle pour les 45 conseillers, avec surveillance et plan de maintenance | 6 mois | Fiabilité des analyses financières ≥ 95 % |
+**Ajouté (ma contribution personnelle) :**
+- L'angle créatif Agent 6 (apprentissage continu par conseiller) n'a pas été proposé par l'IA d'emblée — insight développée après discussion avec Jean (conseiller senior) sur la frustration de répéter les mêmes ajustements mois après mois
+- Architecture de conformité granulaire (section 4) : chaque agent a des responsabilités explicites d'audit (pas délégation globale)
+- Clause go/no-go par phase (section 7) : point de décision après chaque palier, avec action de fallback (pivot vers solution simplifiée si orchestration échoue)
 
 ---
 
-## 6. Métriques de succès à 6 mois
+## 5. Déclaration de responsabilité
 
-| Type | Métrique | Valeur cible |
-|------|----------|--------------|
-| Technique | Précision des synthèses et analyses de portefeuille | ≥ 90 % |
-| Affaires | Réduction du temps de préparation de rendez-vous | -30 % |
-| Affaires | Nombre d’actions recommandées validées par un conseiller | ≥ 75 % |
-| Conformité | Taux d’usage conforme aux règles AMF/Loi 25 | 100 % |
-| Adoption | Pourcentage des conseillers utilisant l’outil au moins 3 fois/semaine | ≥ 70 % |
+Je déclare que le contenu final reflète mon jugement personnel et mon expérience terrain à FinServ Québec.
 
----
+Les outils IA m'ont aidé à structurer, clarifier, et raffiner — mais les décisions de design majeures reflètent ma connaissance du contexte :
+- Passage SaaS → orchestration interne : basé sur capacité TI réelle et peurs conseillers observées
+- 3 points de contrôle humain obligatoires : basé sur discussions directes avec conseillers sur confiance/menace
+- Agent 6 apprentissage : feedback de conseillers seniors sur adaptation dynamique
+- Go/no-go décisionnel : expérience de projets TI chez FinServ et pivot-plans
 
-## 7. Clause go/no-go
+Je suis responsable de l'exactitude factuelle (chiffres vérifiés), de la pertinence (contexte FinServ adressé), et du raisonnement (orchestration mieux adaptée que SaaS pour ce cas).
 
-Indicateur : pertinence des recommandations de l’agent par rapport à la situation client et capacité à proposer des actions utiles validées par le conseiller.  
-Seuil d'arrêt : après 2 mois, si l’agent ne fournit pas des recommandations pertinentes dans au moins 80 % des cas testés.  
-Date de décision : 2 mois après le démarrage du pilote.  
-Action si seuil non atteint : pivoter vers un agent d’aide au conseiller qui consolide et anonymise les données client et fournit les informations de marché pertinentes pour accélérer l’analyse humaine, tout en conservant un support client humain.
-
----
-
-## Annexes (hors limite d'une page)
-
-- **Annexe A** : Fiche d'opportunité agentique (`portfolio/L1_reflexion_role_specialise.md`)  
-- **Annexe B** : Grille de sélection d'agents (`portfolio/M1_grille_selection_agents.md` ou `.pdf`)  
-- **Annexe C** : Canevas de cas d'usage (`portfolio/L3_canevas_cas_usage.md`)
-
----
-
-*Divulgation IA : si des outils d'IA ont aidé à la rédaction de ce mémo, déclarez-les dans `ai-usage.md`.*
+Nom : adembey02
+Date : 2026-06-10
